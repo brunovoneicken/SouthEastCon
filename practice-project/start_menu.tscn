@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://cychues0ft23l"]
+
+[ext_resource type="Script" uid="uid://r1i1wehjxsnp" path="res://start_menu.gd" id="1_jwbto"]
+
+[node name="StartButton" type="Button"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 423.0
+offset_top = 258.0
+offset_right = -451.0
+offset_bottom = -277.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Start Game!"
+script = ExtResource("1_jwbto")
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]
